@@ -124,6 +124,9 @@ export default class CardView extends Component {
 
     return (
       <View style={[s.cardContainer, containerSize]}>
+        <div>
+          <h3>Eilon Test---------------Eilon</h3>
+        </div>
         <FlipCard style={{ borderWidth: 0 }}
             flipHorizontal
             flipVertical={false}
